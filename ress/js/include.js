@@ -7,9 +7,9 @@ class Header extends HTMLElement{
     }
     connectedCallback(){
         this.innerHTML = `
-        <header class="sticky top-0 p-3 z-50 bg-black">
+        <header class="sticky top-0 p-2 z-50 bg-black">
 
-            <div class="max-w-container grid grid-cols-3 items-center py-2">
+            <div class="max-w-container grid grid-cols-3 items-center py-1">
                 <nav class="flex">
                     <ul class="flex items-center justify-center gap-8 uppercase font-extrabold ">
                         <li><a class="text-white hover:text-[#ef1d1e]" href="/" title="">Home</a></li>
@@ -20,7 +20,7 @@ class Header extends HTMLElement{
                 </nav>
                 <div class="mx-auto">
                     <a href="/" title="Bâche Center" class="h-16 block">
-                        <img src="` + logo + `" alt="" class="h-28"/>
+                        <img src="` + logo + `" alt="" class="h-full"/>
                     </a>
                 </div>
         

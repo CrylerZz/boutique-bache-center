@@ -86,7 +86,7 @@
         </div>
         <div class="flex flex-col gap-4 grow">
             <div class="h-16 flex items-center justify-end gap-4">
-                <div class="h-12 w-12 flex items-center justify-center rounded-lg bg-[#ef1d1e]">
+                <div onclick="changeGrid('triple')" class="h-12 w-12 flex items-center justify-center rounded-lg bg-[#ef1d1e]">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_1_6189)">
                             <path d="M17.3998 10.2C19.3898 10.2 20.9998 8.58998 20.9998 6.59998C20.9998 4.60998 19.3898 3 17.3998 3C15.4098 3 13.7998 4.60998 13.7998 6.59998C13.7998 8.58998 15.4098 10.2 17.3998 10.2Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -96,29 +96,21 @@
                         </g>
                     </svg>
                 </div>
-                <div class="h-12 w-12 flex items-center justify-center bg-gray-100 rounded-lg">
+                <div onclick="changeGrid('double')" class="h-12 w-12 flex items-center justify-center bg-gray-100 rounded-lg">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1_6189)">
-                            <path d="M17.3998 10.2C19.3898 10.2 20.9998 8.58998 20.9998 6.59998C20.9998 4.60998 19.3898 3 17.3998 3C15.4098 3 13.7998 4.60998 13.7998 6.59998C13.7998 8.58998 15.4098 10.2 17.3998 10.2Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                            <path d="M6.60001 10.2C8.59001 10.2 10.2 8.58998 10.2 6.59998C10.2 4.60998 8.59001 3 6.60001 3C4.61001 3 3 4.60998 3 6.59998C3 8.58998 4.61001 10.2 6.60001 10.2Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                            <path d="M17.3998 21.0001C19.3898 21.0001 20.9998 19.3901 20.9998 17.4001C20.9998 15.4101 19.3898 13.8 17.3998 13.8C15.4098 13.8 13.7998 15.4101 13.7998 17.4001C13.7998 19.3901 15.4098 21.0001 17.3998 21.0001Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                            <path d="M6.60001 21.0001C8.59001 21.0001 10.2 19.3901 10.2 17.4001C10.2 15.4101 8.59001 13.8 6.60001 13.8C4.61001 13.8 3 15.4101 3 17.4001C3 19.3901 4.61001 21.0001 6.60001 21.0001Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                        <g clip-path="url(#clip0_68_1086)">
+                            <path d="M17.3998 15.2C19.3898 15.2 20.9998 13.59 20.9998 11.6C20.9998 9.60998 19.3898 8 17.3998 8C15.4098 8 13.7998 9.60998 13.7998 11.6C13.7998 13.59 15.4098 15.2 17.3998 15.2Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M6.60001 15.2C8.59001 15.2 10.2 13.59 10.2 11.6C10.2 9.60998 8.59001 8 6.60001 8C4.61001 8 3 9.60998 3 11.6C3 13.59 4.61001 15.2 6.60001 15.2Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
                         </g>
                     </svg>
+
                 </div>
-                <div class="h-12 w-12 flex items-center justify-center bg-gray-100 rounded-lg">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_1_6189)">
-                            <path d="M17.3998 10.2C19.3898 10.2 20.9998 8.58998 20.9998 6.59998C20.9998 4.60998 19.3898 3 17.3998 3C15.4098 3 13.7998 4.60998 13.7998 6.59998C13.7998 8.58998 15.4098 10.2 17.3998 10.2Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                            <path d="M6.60001 10.2C8.59001 10.2 10.2 8.58998 10.2 6.59998C10.2 4.60998 8.59001 3 6.60001 3C4.61001 3 3 4.60998 3 6.59998C3 8.58998 4.61001 10.2 6.60001 10.2Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                            <path d="M17.3998 21.0001C19.3898 21.0001 20.9998 19.3901 20.9998 17.4001C20.9998 15.4101 19.3898 13.8 17.3998 13.8C15.4098 13.8 13.7998 15.4101 13.7998 17.4001C13.7998 19.3901 15.4098 21.0001 17.3998 21.0001Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                            <path d="M6.60001 21.0001C8.59001 21.0001 10.2 19.3901 10.2 17.4001C10.2 15.4101 8.59001 13.8 6.60001 13.8C4.61001 13.8 3 15.4101 3 17.4001C3 19.3901 4.61001 21.0001 6.60001 21.0001Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
-                        </g>
-                    </svg>
+                <div onclick="changeGrid('list')" class="h-12 w-12 flex items-center justify-center bg-gray-100 rounded-lg">
+                    List
                 </div>
 
             </div>
-            <div class="grid grid-cols-3 gap-10">
+            <div class="container-products grid grid-cols-3 gap-10">
                 <a href="/" class="border border-gray-100 border-solid rounded-lg p-6 space-y-4 hover:border-[#ef1d1e]">
                     <img src="../../../ress/img/replaceCommon/cat-1.webp" class="rounded-lg aspect-square"/>
                     <p class="hover:text-[#ef1d1e] text-sm">Store à cassette motorisé 400x300 cm Crème</p>
@@ -143,6 +135,23 @@
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="../../../ress/js/include.js"></script>
-
+<script>
+    let $bigCont = $('.container-products');
+    function eraseClass(myContainer){
+        myContainer.removeClass('grid-cols-3');
+        myContainer.removeClass('grid-cols-2');
+    }
+    function changeGrid(param){
+        if(param == 'double'){
+            eraseClass($bigCont);
+            $bigCont.addClass('grid-cols-2');
+        } else if (param == 'triple'){
+            eraseClass($bigCont);
+            $bigCont.addClass('grid-cols-3')
+        }else{
+            eraseClass($bigCont);
+        }
+    }
+</script>
 </body>
 </html>
