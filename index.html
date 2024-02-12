@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bâche Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./ress/css/output.css">
+</head>
+<body class="min-h-screen">
+
+    <header-component></header-component>
+
+    <main>
+        <!-- Slider -->
+        <section class="h-[80vh] relative before:absolute before:inset-0 before:bg-black/60 before:z-10">
+            <div class="absolute inset-0 max-w-container flex justify-center flex-col z-10 w-full space-y-10">
+                <h1 class="text-white text-6xl font-extrabold uppercase tracking-wide leading-tight">Spécialiste en bâche<br><span class="text-[#ef1d1e]">tout format</span></h1>
+                <p class="text-white uppercase font-extrabold text-2xl relative w-fit px-2
+                                before:absolute before:inset-x-0 before:h-4 before:bottom-0.5 before:bg-[#ef1d1e]/70 before:-z-10">Text decorator</p>
+                <div class="bg-[#ef1d1e] hover:bg-white hover:text-[#ef1d1e] cursor-pointer py-5 px-9 uppercase text-white font-bold w-fit rounded-lg text-sm">Shop</div>
+            </div>
+            <img class="object-cover h-full w-full" src="ress/img/slider.png"/>
+        </section>
+        <!--Section catégorie produits-->
+        <section class="max-w-container py-20 flex flex-col items-center gap-14">
+            <p class="text-white uppercase font-extrabold text-5xl relative w-fit px-2 text-center
+             before:absolute before:inset-x-0 before:h-4 before:bottom-0.5 before:bg-[#ef1d1e]/70 before:-z-10">Categories</p>
+            <div class="grid grid-cols-4 gap-14">
+                <a href="/" title="" class="item-cat flex flex-col items-center justify-center gap-8 text-white">
+                    <img src="ress/img/replaceCommon/cat-1.webp" alt="Store Banne"
+                         class="aspect-square rounded-lg overflow-hidden"/>
+                    <p>Store Banne</p>
+                </a>
+                <a href="/" title="" class="item-cat flex flex-col items-center justify-center gap-8 text-white">
+                    <img src="ress/img/replaceCommon/cat-2.jpeg" alt="Store Enrouleur"
+                         class="aspect-square rounded-lg overflow-hidden"/>
+                    <p>Store Enrouleur</p>
+                </a>
+                <a href="/" title="" class="item-cat flex flex-col items-center justify-center gap-8 text-white">
+                    <img src="ress/img/replaceCommon/cat-3.webp" alt="Store à Projection"
+                         class="aspect-square rounded-lg overflow-hidden"/>
+                    <p>Store à Projection</p>
+                </a>
+                <a href="/" title="" class="item-cat flex flex-col items-center justify-center gap-8 text-white">
+                    <img src="ress/img/replaceCommon/cat-4.webp" alt="Brise-soleil"
+                         class="aspect-square rounded-lg overflow-hidden"/>
+                    <p>Brise-soleil</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Section Presentation -->
+        <section class="bg-white py-20 flex flex-col items-center gap-14">
+            <div class="max-w-container relative">
+                <img class="object-cover object-center h-96 w-full rounded-lg mr-48" src="ress/img/pres-home.jpg"/>
+                <div class="grid grid-cols-3 gap-10 px-10 -mt-10">
+                    <div class="bg-gray-50 p-10 rounded-lg space-y-4 shadow-lg h-fit">
+                        <h3 class="text-[#ef1d1e] uppercase tracking-wide text-2xl">Notre Engagement</h3>
+                        <p class="text-gray-700">Chez Bâche Center, nous nous engageons à fournir des bâches de haute qualité, durables et esthétiquement personnalisées. Que vous ayez besoin de bâches pour votre entreprise, votre événement spécial, ou tout simplement pour ajouter une touche distinctive à votre espace extérieur, nous avons la solution parfaite.</p>
+                    </div>
+                    <div class="bg-gray-50 p-10 rounded-lg space-y-4 shadow-lg h-fit">
+                        <h3 class="text-[#ef1d1e] uppercase tracking-wide text-2xl">Produits sur Mesure</h3>
+                        <p class="text-gray-700">Nous comprenons que chaque client est unique, c'est pourquoi nous offrons une gamme complète de bâches entièrement personnalisables. Choisissez parmi une variété de matériaux de haute qualité, de tailles sur mesure et de finitions spéciales pour créer une bâche qui correspond parfaitement à vos besoins. Que vous recherchiez une bâche publicitaire pour votre entreprise, une bâche de protection résistante aux intempéries, ou une bâche décorative pour un événement spécial, nous avons les compétences nécessaires pour concrétiser votre vision.</p>
+                    </div>
+                    <div class="bg-gray-50 p-10 rounded-lg space-y-4 shadow-lg h-fit">
+                        <h3 class="text-[#ef1d1e] uppercase tracking-wide text-2xl">Qualité Exceptionnelle</h3>
+                        <p class="text-gray-700">Chez Bâches- Center, la qualité est notre priorité. Nous utilisons des matériaux de première qualité qui résistent aux intempéries, aux UV et à l'usure quotidienne. Chaque bâche est fabriquée avec une attention méticuleuse aux détails, assurant ainsi une durabilité exceptionnelle et une satisfaction à long terme.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer-component></footer-component>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="ress/js/include.js"></script>
+    <script>
+        $('.item-cat').hover(function(){
+            $('.item-cat').addClass('opacity-50');
+            $(this).removeClass('opacity-50');
+        });
+        $('.item-cat').mouseleave(function() {
+            $('.item-cat').removeClass('opacity-50');
+
+        })
+    </script>
+</body>
+</html>

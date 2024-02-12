@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Yantramanav:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="/src/compiled.css">
+</head>
+<body class="min-h-screen flex flex-col">
+
+<header-component></header-component>
+
+<main class="max-w-2xl lg:max-w-7xl w-full mx-auto space-y-20 py-10 px-4 sm:px-6 lg:px-8 relative z-0 grow flex items-center justify-center">
+    <div class="w-full">
+        <h1 class="text-6xl font-extrabold uppercase">Order Detail</h1>
+        <section aria-labelledby="order-heading" class="kw afm afu"><h2 id="order-heading" class="t">Your order</h2>
+            <h3 class="t">Items</h3>
+            <div class="lx abl aff afu arr">
+                <img
+                    src="https://tailwindui.com/img/ecommerce-images/confirmation-page-05-product-01.jpg"
+                    alt="Glass bottle with black plastic pour top and mesh insert."
+                    class="np rq uo adt aij aqe aqf bye bza">
+                <div class="lx un yr">
+                    <div><h4 class="awe axv"><a href="#">Cold Brew Bottle</a></h4>
+                        <p class="lb awa axs">This glass bottle comes with a mesh insert for steeping tea or
+                            cold-brewing coffee. Pour from any angle and remove the top for easy cleaning.</p></div>
+                    <div class="lk lx um yy">
+                        <dl class="lx abj acb acg awa ccp">
+                            <div class="lx">
+                                <dt class="awe axv">Quantity</dt>
+                                <dd class="jt axt">1</dd>
+                            </div>
+                            <div class="lx atn cgo">
+                                <dt class="awe axv">Price</dt>
+                                <dd class="jt axt">$32.00</dd>
+                            </div>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="lx abl aff afu arr">
+                <img
+                        src="https://tailwindui.com/img/ecommerce-images/confirmation-page-05-product-01.jpg"
+                        alt="Glass bottle with black plastic pour top and mesh insert."
+                        class="np rq uo adt aij aqe aqf bye bza">
+                <div class="lx un yr">
+                    <div><h4 class="awe axv"><a href="#">Cold Brew Bottle</a></h4>
+                        <p class="lb awa axs">This glass bottle comes with a mesh insert for steeping tea or
+                            cold-brewing coffee. Pour from any angle and remove the top for easy cleaning.</p></div>
+                    <div class="lk lx um yy">
+                        <dl class="lx abj acb acg awa ccp">
+                            <div class="lx">
+                                <dt class="awe axv">Quantity</dt>
+                                <dd class="jt axt">1</dd>
+                            </div>
+                            <div class="lx atn cgo">
+                                <dt class="awe axv">Price</dt>
+                                <dd class="jt axt">$32.00</dd>
+                            </div>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="bwk cgo"><h3 class="t">Your information</h3><h4 class="t">Addresses</h4>
+                <dl class="mb yi aai arr awa">
+                    <div>
+                        <dt class="awe axv">Shipping address</dt>
+                        <dd class="lb axt">
+                            <address class="awk"><span class="lu">Kristin Watson</span><span class="lu">7363 Cynthia Pass</span><span
+                                    class="lu">Toronto, ON N3Y 4H8</span></address>
+                        </dd>
+                    </div>
+                    <div>
+                        <dt class="awe axv">Billing address</dt>
+                        <dd class="lb axt">
+                            <address class="awk"><span class="lu">Kristin Watson</span><span class="lu">7363 Cynthia Pass</span><span
+                                    class="lu">Toronto, ON N3Y 4H8</span></address>
+                        </dd>
+                    </div>
+                </dl>
+                <h4 class="t">Payment</h4>
+                <dl class="mb yi aai afm afu arr awa">
+                    <div>
+                        <dt class="awe axv">Payment method</dt>
+                        <dd class="lb axt"><p>Apple Pay</p>
+                            <p>Mastercard</p>
+                            <p><span aria-hidden="true">••••</span><span class="t">Ending in </span>1545</p></dd>
+                    </div>
+                    <div>
+                        <dt class="awe axv">Shipping method</dt>
+                        <dd class="lb axt"><p>DHL</p>
+                            <p>Takes up to 3 working days</p></dd>
+                    </div>
+                </dl>
+                <h3 class="t">Summary</h3>
+                <dl class="aby afm afu auo awa">
+                    <div class="lx zf">
+                        <dt class="awe axv">Subtotal</dt>
+                        <dd class="axt">$36.00</dd>
+                    </div>
+                    <div class="lx zf">
+                        <dt class="lx awe axv">Discount<span class="jt ads ail ard aro awc axs">STUDENT50</span></dt>
+                        <dd class="axt">-$18.00 (50%)</dd>
+                    </div>
+                    <div class="lx zf">
+                        <dt class="awe axv">Shipping</dt>
+                        <dd class="axt">$5.00</dd>
+                    </div>
+                    <div class="lx zf">
+                        <dt class="awe axv">Total</dt>
+                        <dd class="axv">$23.00</dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+    </div>
+</main>
+<footer-component></footer-component>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="/src/only4WinTime.js"></script>
+<script src="/src/main.js"></script>
+</body>
+</html>

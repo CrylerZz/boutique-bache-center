@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> - Bâche Center</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../ress/css/output.css">
+</head>
+<body class="min-h-screen">
+
+<header-component></header-component>
+
+<main class="bg-white">
+    <section class="h-80 bg-gray-200 flex flex-col items-center justify-center space-y-10">
+        <h1 class="uppercase text-gray-800 text-4xl">List Products With Categories</h1>
+        <!-- Breadcrumb -->
+        <div class="flex items-center justify-center text-sm gap-4">
+            <p>Home</p>
+            <span>&bull;</span>
+            <p>List Products</p>
+        </div>
+    </section>
+    <section class="max-w-container py-20 flex w-full gap-16">
+        <div class="min-w-72 flex flex-col gap-4">
+            <div class="uppercase text-2xl font-extrabold flex items-center gap-2 h-16">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_5003)">
+                        <path d="M21 6H3" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                        <path d="M21 18H3" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                        <path d="M21 12H7" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1_5003">
+                            <rect width="24" height="24" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+                <span>Categories</span>
+            </div>
+            <div class="flex flex-col gap-4">
+                <details open class=" bloc-collapse group rounded-lg overflow-hidden border-2 border-solid border-gray-100">
+                    <summary class="flex items-center justify-between cursor-pointer group bg-gray-100 hover:bg-[#ef1d1e] hover:text-white py-2 pr-2 pl-4 duration-150">
+                        <span class="font-extrabold uppercase text-sm duration-0">Moto</span>
+                        <div class="bg-gray-200 group-hover:bg-white full-centered w-12 h-12 rounded-lg flex items-center justify-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_5450)">
+                                    <path d="M18.5 10L12 16.5L5.5 10" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                            </svg>
+                        </div>
+                    </summary>
+                    <div class="p-6 flex flex-col gap-2">
+                        <a href="/" title="" class="hover:text-[#ef1d1e]">Pose de mousse confort</a>
+                        <a href="/" title="" class="hover:text-[#ef1d1e]">Rabaissement de selle</a>
+                        <a href="/" title="" class="hover:text-[#ef1d1e]">Rehaussement de selle</a>
+                        <a href="/" title="" class="hover:text-[#ef1d1e]">Destockage</a>
+                        <a href="/" title="" class="hover:text-[#ef1d1e]">Produit d'entretien</a>
+                        <a href="/" title="" class="hover:text-[#ef1d1e]">Simili</a>
+                        <a href="/" title="" class="hover:text-[#ef1d1e]">Carte cadeau</a>
+                    </div>
+                </details>
+                <details class=" bloc-collapse group rounded-lg overflow-hidden border-2 border-solid border-gray-100">
+                    <summary class="flex items-center justify-between cursor-pointer group bg-gray-100 hover:bg-[#ef1d1e] hover:text-white py-2 pr-2 pl-4 duration-150">
+                        <span class="font-extrabold uppercase text-sm duration-0">Auto</span>
+                        <div class="bg-gray-200 group-hover:bg-white full-centered w-12 h-12 rounded-lg flex items-center justify-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_5450)">
+                                    <path d="M18.5 10L12 16.5L5.5 10" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                            </svg>
+                        </div>
+                    </summary>
+                    <div class="p-6 flex flex-col gap-2">
+                        <a href="/" title="" class="hover:text-[#ef1d1e]">Sellerie automobile</a>
+                        <a href="/" title="" class="hover:text-[#ef1d1e]">Réparation de ciel de toit</a>
+                        <a href="/" title="" class="hover:text-[#ef1d1e]">Ciel de toit étoilé</a>
+                        <a href="/" title="" class="hover:text-[#ef1d1e]">Boutique sellerie automobile</a>
+                    </div>
+                </details>
+            </div>
+        </div>
+        <div class="flex flex-col gap-4 grow">
+            <div class="h-16 flex items-center justify-end gap-4">
+                <div class="h-12 w-12 flex items-center justify-center rounded-lg bg-[#ef1d1e]">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1_6189)">
+                            <path d="M17.3998 10.2C19.3898 10.2 20.9998 8.58998 20.9998 6.59998C20.9998 4.60998 19.3898 3 17.3998 3C15.4098 3 13.7998 4.60998 13.7998 6.59998C13.7998 8.58998 15.4098 10.2 17.3998 10.2Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M6.60001 10.2C8.59001 10.2 10.2 8.58998 10.2 6.59998C10.2 4.60998 8.59001 3 6.60001 3C4.61001 3 3 4.60998 3 6.59998C3 8.58998 4.61001 10.2 6.60001 10.2Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M17.3998 21.0001C19.3898 21.0001 20.9998 19.3901 20.9998 17.4001C20.9998 15.4101 19.3898 13.8 17.3998 13.8C15.4098 13.8 13.7998 15.4101 13.7998 17.4001C13.7998 19.3901 15.4098 21.0001 17.3998 21.0001Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M6.60001 21.0001C8.59001 21.0001 10.2 19.3901 10.2 17.4001C10.2 15.4101 8.59001 13.8 6.60001 13.8C4.61001 13.8 3 15.4101 3 17.4001C3 19.3901 4.61001 21.0001 6.60001 21.0001Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="h-12 w-12 flex items-center justify-center bg-gray-100 rounded-lg">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1_6189)">
+                            <path d="M17.3998 10.2C19.3898 10.2 20.9998 8.58998 20.9998 6.59998C20.9998 4.60998 19.3898 3 17.3998 3C15.4098 3 13.7998 4.60998 13.7998 6.59998C13.7998 8.58998 15.4098 10.2 17.3998 10.2Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M6.60001 10.2C8.59001 10.2 10.2 8.58998 10.2 6.59998C10.2 4.60998 8.59001 3 6.60001 3C4.61001 3 3 4.60998 3 6.59998C3 8.58998 4.61001 10.2 6.60001 10.2Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M17.3998 21.0001C19.3898 21.0001 20.9998 19.3901 20.9998 17.4001C20.9998 15.4101 19.3898 13.8 17.3998 13.8C15.4098 13.8 13.7998 15.4101 13.7998 17.4001C13.7998 19.3901 15.4098 21.0001 17.3998 21.0001Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M6.60001 21.0001C8.59001 21.0001 10.2 19.3901 10.2 17.4001C10.2 15.4101 8.59001 13.8 6.60001 13.8C4.61001 13.8 3 15.4101 3 17.4001C3 19.3901 4.61001 21.0001 6.60001 21.0001Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="h-12 w-12 flex items-center justify-center bg-gray-100 rounded-lg">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1_6189)">
+                            <path d="M17.3998 10.2C19.3898 10.2 20.9998 8.58998 20.9998 6.59998C20.9998 4.60998 19.3898 3 17.3998 3C15.4098 3 13.7998 4.60998 13.7998 6.59998C13.7998 8.58998 15.4098 10.2 17.3998 10.2Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M6.60001 10.2C8.59001 10.2 10.2 8.58998 10.2 6.59998C10.2 4.60998 8.59001 3 6.60001 3C4.61001 3 3 4.60998 3 6.59998C3 8.58998 4.61001 10.2 6.60001 10.2Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M17.3998 21.0001C19.3898 21.0001 20.9998 19.3901 20.9998 17.4001C20.9998 15.4101 19.3898 13.8 17.3998 13.8C15.4098 13.8 13.7998 15.4101 13.7998 17.4001C13.7998 19.3901 15.4098 21.0001 17.3998 21.0001Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                            <path d="M6.60001 21.0001C8.59001 21.0001 10.2 19.3901 10.2 17.4001C10.2 15.4101 8.59001 13.8 6.60001 13.8C4.61001 13.8 3 15.4101 3 17.4001C3 19.3901 4.61001 21.0001 6.60001 21.0001Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                        </g>
+                    </svg>
+                </div>
+
+            </div>
+            <div class="grid grid-cols-3 gap-10">
+                <a href="/" class="border border-gray-100 border-solid rounded-lg p-6 space-y-4 hover:border-[#ef1d1e]">
+                    <img src="../../../ress/img/replaceCommon/cat-1.webp" class="rounded-lg aspect-square"/>
+                    <p class="hover:text-[#ef1d1e] text-sm">Store à cassette motorisé 400x300 cm Crème</p>
+                    <p class="font-semibold text-2xl">300.00€</p>
+                </a>
+                <a href="/"  class="border border-gray-100 border-solid rounded-lg p-6 space-y-4 hover:border-[#ef1d1e]">
+                    <img src="../../../ress/img/replaceCommon/cat-2.jpeg" class="rounded-lg aspect-square"/>
+                    <p class="hover:text-[#ef1d1e] text-sm">Store banne manuel CALIMA 2.95x2 m, armature blanche, toile rayée blanc gris</p>
+                    <p class="font-semibold text-2xl">300.00€</p>
+                </a>
+                <a href="/"  class="border border-gray-100 border-solid rounded-lg p-6 space-y-4 hover:border-[#ef1d1e]">
+                    <img src="../../../ress/img/replaceCommon/cat-3.webp" class="rounded-lg aspect-square"/>
+                    <p class="hover:text-[#ef1d1e] text-sm">Store banne manuel 3 x 2 m Corse S gris, toile acrylique gris graphiteVoir</p>
+                    <p class="font-semibold text-2xl">300.00€</p>
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer-component></footer-component>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="../../../ress/js/include.js"></script>
+
+</body>
+</html>

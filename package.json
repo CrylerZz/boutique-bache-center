@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "tailwindDev": "NODE_ENV=dev npx tailwindcss -i ress/css/input.css -o ress/css/output.css --watch --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
